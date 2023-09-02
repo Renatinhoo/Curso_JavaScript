@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Maioridade</title>
+
+    <style>
+        body {
+            background-color: rgb(212, 185, 143);
+        }
+
+        h1 {
+            color: rgb(122, 82, 8);
+            font: normal 20pt Arial;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Calculando A Maioridade de um Individuo</h1>
+    
+
+    <script>
+
+      var idade1 =  Number(prompt("Digite uma idade:"))
+      var idade2 =  Number(prompt("Digite outra idade:"))
+      var idade3 =  Number(prompt("Digite uma ultima idade:"))
+
+      calculo1 = idade1 >= 18?"MAIOR DE IDADE":"MENOR DE IDADE"
+      calculo2 = idade2 >= 18?"MAIOR DE IDADE":"MENOR DE IDADE"
+      calculo3 = idade3 >= 18?"MAIOR DE IDADE":"MENOR DE IDADE"
+
+      var idade1 = calculo1
+      var idade2 = calculo2
+      var idade3 = calculo3
+
+      alert(`A primeira pessoa é ${calculo1}`)
+      alert(`A Segunda pessoa é ${calculo2}`)
+      alert(`A Terceira pessoa é ${calculo3}`)
+
+
+    </script>
+</body>
+</html>

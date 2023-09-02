@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos DOM</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            color: rgb(10, 10, 10);
+            font: normal 20pt Arial;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <div>Clique em mim</div>
+
+    <Script>
+ //aprendendo DOM   
+
+
+        var carlos = window.document.getElementsByTagName('h1')[0]
+        var marcos = window.document.getElementsByTagName('div')[0]
+        var corpo = window.document.body
+        var paragrafo = window.document.getElementsByTagName('p')[0]
+        var paragrafo2 = window.document.getElementsByTagName('p')[1]
+
+        marcos.style.color = 'purple'
+        carlos.style.color = 'green'
+        corpo.style.background = 'antiquewhite'
+        paragrafo.style.color = 'red'
+        paragrafo2.style.color = 'blue'
+
+        document.write(paragrafo2.innerHTML)
+        //window.prompt(paragrafo.innerText12)
+
+
+    </Script>
+</body>
+
+</html>
